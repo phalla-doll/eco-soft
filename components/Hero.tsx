@@ -10,8 +10,8 @@ export default function Hero() {
   return (
     <section className="relative pt-20 pb-12 flex flex-col items-center w-full min-h-[600px]">
       {/* Massive Headline */}
-      <div className="w-full text-center relative z-10 pointer-events-none">
-        <h1 className="font-clash font-semibold text-[16vw] leading-[0.8] tracking-tighter uppercase text-[#111] whitespace-nowrap">
+      <div className="w-full text-center relative z-10 pointer-events-none px-4">
+        <h1 className="font-clash font-semibold text-[14vw] sm:text-[12vw] md:text-[13vw] lg:text-[14vw] xl:text-[15vw] leading-[0.85] tracking-tighter uppercase text-[#111] break-words">
           FIND YOUR WAY
         </h1>
       </div>
